@@ -1,0 +1,5 @@
+yogurt          5    apples 10 bananas 2
+cake 1   bread    2 
+cookies 12
+milk 2
+oranges 3

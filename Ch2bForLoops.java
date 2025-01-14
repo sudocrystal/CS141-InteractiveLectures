@@ -48,7 +48,7 @@ public class Ch2bForLoops {
       // With a second set of dots
    }
 
-   // This is PracticeIt Exercise 2.22 which produces:
+   // This is Exercise 2.22 which produces:
    /* (size is 7)
       $$$$$$$**************$$$$$$$
       **$$$$$$************$$$$$$**
@@ -65,7 +65,7 @@ public class Ch2bForLoops {
    public static void scaledDotNumBox() {
    }
 
-   // This is PracticeIt Exercise 2.23 which is a scalable version of Ex 2.22:
+   // This is Exercise 2.23 which is a scalable version of Ex 2.22:
    /* (size is 3)
       $$$******$$$
       **$$****$$**

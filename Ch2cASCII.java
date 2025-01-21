@@ -5,17 +5,6 @@ public class Ch2cASCII {
       //hourglass();
    }
    
-   
-   /* This method should produce the following
-      -----1-----
-      ----222----
-      ---33333---
-      --4444444--
-      -555555555-
-   */
-   public static void numberTri() {
-   }
-   
    /* This method should produce the following
       |""""""""""|       // helpful hints: 10 quotes
        \::::::::/        //      1 space,  8 colons 
@@ -58,5 +47,15 @@ public class Ch2cASCII {
    }
    
    public static void bottom() {
+   }
+
+   /* This method should produce the following
+      -----1-----
+      ----222----
+      ---33333---
+      --4444444--
+      -555555555-
+   */
+   public static void numberTri() {
    }
 }

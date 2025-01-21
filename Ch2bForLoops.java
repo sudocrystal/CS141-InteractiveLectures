@@ -1,12 +1,8 @@
 public class Ch2bForLoops {
-   // class constant - cannot be reassigned; ALL_CAPS; must be given a value at start
-//    public static final int SIZE = 5;
-
    public static void main(String[] args) {
       dotBox();
       dotNumBox();
       dollarFigure();
-      scaledDotNumBox();
       dollarFigure2();
    }
 
@@ -41,11 +37,6 @@ public class Ch2bForLoops {
    8
    */
    public static void dotNumBox() {
-      // First without a systematic approach
-
-      // With a systematic approach
-
-      // With a second set of dots
    }
 
    // This is Exercise 2.22 which produces:
@@ -59,10 +50,6 @@ public class Ch2bForLoops {
       ************$**$************
    */
    public static void dollarFigure() {
-   }
-
-   // This method allows the dot/num box above to be scaled using the class constant
-   public static void scaledDotNumBox() {
    }
 
    // This is Exercise 2.23 which is a scalable version of Ex 2.22:

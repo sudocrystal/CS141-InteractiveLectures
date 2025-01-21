@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Ch4aInputDecisions {
-
    public static void main(String[] args) {
       repeatWord();
 
@@ -22,8 +21,7 @@ public class Ch4aInputDecisions {
 
    // takes a word and a number 
    // prints the word to the screen that number of times
-   // repeat("balloon", 3)
-   /* should produce: 
+   /* repeat("balloon", 3) should produce: 
       balloon
       balloon
       balloon
@@ -38,8 +36,7 @@ public class Ch4aInputDecisions {
    
    // prompts for a word and a number
    // prints the word to the screen, one letter per line, all caps
-   // repeatWord() where the user types in "try" and 3
-   /* should produce: 
+   /* repeatWord() where the user types in "try" and 3 should produce: 
       TTT
       RRR
       YYY
@@ -51,17 +48,15 @@ public class Ch4aInputDecisions {
    public static void learningIfStatements() {
    }
    
-   // prompts for total points earned in the following categories:
-   // Learning Practice
-   // Long Homeworks
-   // Exams
+   // prompts for total points earned in the following 3 categories:
+   // Learning Practice, Long Homeworks, Exams
    // returns all points added together
-   //TODO: PERCENTAGE GRADE METHOD
+   // TODO: PERCENTAGE GRADE METHOD
    
    // takes a points as a parameter 
    // returns the calculated gpa, according to the following:
-   // >= 100 points is a 4.0
-   // <100 and >= 95 is a 3.9
-   // else return 2.0 for this example 
-   //TODO: GPA METHOD
+   //    >= 100 points is a 4.0
+   //    <100 and >= 95 is a 3.9
+   //    else return 2.0 for this example 
+   // TODO: GPA METHOD
 }

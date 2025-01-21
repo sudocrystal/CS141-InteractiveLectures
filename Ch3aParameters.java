@@ -1,14 +1,12 @@
 public class Ch3aParameters {
 
    public static void main(String[] args) {
-      // Giving information to a method:
-      // calling a method with different arguments
+      // Parameters: giving information to a method
       love("naps", "sunrises", "vacation");
       love("dogs", "lattes", "Netflix");
 //       love("homework", 200);
   
-      // Getting information from a method:
-      // how to return information from a method
+      // Return statements: getting information from a method
 //       double value = 14;
 //       System.out.println("Value starts out as " + value);
 //       add10(value);

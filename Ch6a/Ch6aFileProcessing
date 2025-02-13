@@ -4,10 +4,13 @@ import java.util.*;
 public class Ch6aFileProcessing {
    public static void main(String[] args) throws FileNotFoundException {
       Scanner numFile = new Scanner(new File("numbers.txt"));
-
       echo10(numFile);
+      
+      //System.out.println("POINT: between echo10 and echoAll");
       //echoAll(numFile);
+      
       //sumAll(numFile);
+      
       //System.out.println("Are all tokens increasing? " + isIncreasing(numFile));
 
       //Scanner wordsFile = new Scanner( /* fill this in */ );
@@ -16,7 +19,7 @@ public class Ch6aFileProcessing {
 
       //Scanner checkFile = new Scanner( /* fill this in */ );
       //gradeReport(checkFile);
-	}
+   }
 
    // echos the first 10 ints in a file
    public static void echo10(Scanner in) {
@@ -28,10 +31,10 @@ public class Ch6aFileProcessing {
 
    // echos all the ints in a file
    public static void echoAll(Scanner in) {
-		while (in.hasNextInt()) {
-			int token = in.nextInt();
-			System.out.println("number = " + token);
-		}
+      while (in.hasNextInt()) {
+         int token = in.nextInt();
+         System.out.println("number = " + token);
+      }
    }
 
    // reads all int tokens from an input file, adding them up
@@ -42,7 +45,7 @@ public class Ch6aFileProcessing {
    // determines whether or not all the tokens in an input file
    // are in increasing order (compares token to token)
    public static boolean isIncreasing(Scanner in) {
-		return true;
+      return true;
    }
 
    // echos all the words in a file

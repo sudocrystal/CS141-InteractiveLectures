@@ -53,8 +53,7 @@ public class Ch7aArrays {
 
    // returns true if the lists contain exactly the same items
    // returns false otherwise
-   // **fun** can you check if they are the same, but not same order?
    public static boolean areEqual(String[] list1, String[] list2) {
-      return false;
+      return Arrays.equals(list1,list2);
    }      
 }

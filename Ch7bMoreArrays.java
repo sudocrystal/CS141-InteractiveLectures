@@ -80,10 +80,4 @@ public class Ch7bMoreArrays {
    // b occurs 1 times ...
    public static void letterFrequency(String phrase) {
    }
-
-   // Added Fun:
-   // should reverse an array of double
-   // {0.3, 0.4, 0.125} ==> {0.125, 0.4, 0.3}
-   public static void reverse(double[] arr) {
-   }
 }

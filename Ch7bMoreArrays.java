@@ -28,10 +28,6 @@ public class Ch7bMoreArrays {
 
 //       letterFrequency("abcdefgaaa");
 //       letterFrequency(" AB##xzZ45");
-
-//       double[] stuff = {0.3, 0.4, 0.125}; 
-//       reverse(stuff);
-//       System.out.println(Arrays.toString(stuff));
    }
    
    // this method will swap the values of x and y 

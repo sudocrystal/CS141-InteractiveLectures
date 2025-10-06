@@ -1,10 +1,4 @@
 public class Ch2cASCII {
-
-   public static void main(String[] args) {
-      //numberTri();
-      //hourglass();
-   }
-   
    /* This method should produce the following
       |""""""""""|       // helpful hints: 10 quotes
        \::::::::/        //      1 space,  8 colons 
@@ -18,7 +12,7 @@ public class Ch2cASCII {
        /::::::::\        //      1 space,  8 colons
       |""""""""""|       //                10 quotes
    */
-   public static void hourglass() {
+   public static void main(String[] args) {
       line();
       top();
       middle();
@@ -47,15 +41,5 @@ public class Ch2cASCII {
    }
    
    public static void bottom() {
-   }
-
-   /* This method should produce the following
-      -----1-----
-      ----222----
-      ---33333---
-      --4444444--
-      -555555555-
-   */
-   public static void numberTri() {
    }
 }

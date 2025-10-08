@@ -55,8 +55,8 @@ public class Ch4aInputDecisions {
    
    // takes a points as a parameter 
    // returns the calculated gpa, according to the following:
-   //    >= 100 points is a 4.0
-   //    <100 and >= 95 is a 3.9
+   //    >= 95 points is a 4.0
+   //    < 95 and >= 94 is a 3.9
    //    else return 2.0 for this example 
    // TODO: calcGPA METHOD
 }

@@ -5,12 +5,12 @@ public class Ch6bLineBasedProcessing {
 
    public static void main(String[] args) throws FileNotFoundException {
       Scanner console = new Scanner(System.in);
-
       Scanner file = new Scanner(new File("more_numbers.txt"));
+      
       echoTokens(file);
       //echoLines(file);
       //echoFile(file);
-      //createCleanFile(file);
+
       //countSpaces(file);
       //countTokens(file);
       //mostTokens(file);
@@ -20,6 +20,10 @@ public class Ch6bLineBasedProcessing {
    // Should echo the contents of a file, removing all spacing and new lines
    // pattern: token-based processing: process a file token by token
    public static void echoTokens(Scanner in) {
+      while(in.hasNextInt()) {
+         int token = in.nextInt();
+         System.out.println(token);
+      }
    }
 
    // Should echo the contents of a file, maintaining all spacing
@@ -29,13 +33,9 @@ public class Ch6bLineBasedProcessing {
 
    // Should echo the contents of a file to the console
    // preserve line breaks, but removing extra spaces between tokens
+   // Edit to: echo the contents of a file to A NEW FILE
    // pattern: processes a file line by line, evaluating each token on a line
    public static void echoFile(Scanner in) {
-   }
-
-   // Should echo the contents of a file to A NEW FILE
-   // preserve line breaks, but removing extra spaces between tokens
-   public static void createCleanFile(Scanner in) {
    }
 
    // Should print the number of spaces found on each line of a file

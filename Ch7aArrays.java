@@ -22,8 +22,10 @@ public class Ch7aArrays {
       // String[] words1 = {"apple","pear"};
       // String[] words2 = {"apple","pear"};
       // String[] words3 = {"apple","orange"};
-      // System.out.println(Arrays.toString(words1) + " == " + Arrays.toString(words2) + "? \t\t\t\t" + areEqual(words1,words2));
-      // System.out.println(Arrays.toString(words2) + " == " + Arrays.toString(words3) + "? \t" + areEqual(words2,words3));
+//       System.out.println(Arrays.toString(words1) + " == " + Arrays.toString(words2)
+//                           + "? \t\t" + areEqual(words1, words2));
+//       System.out.println(Arrays.toString(words2) + " == " + Arrays.toString(words3)
+//                           + "? \t" + areEqual(words2, words3));
    }
 
    public static void arrayFundamentals() {

@@ -18,11 +18,11 @@ public class Ch7bMoreArrays {
 //       arrayMystery(numbers);
 //       System.out.println(Arrays.toString(numbers));
       
-//       String[] words = {"hello", "hi", "hola", "jambo"};
+//       String[] words = {"a", "b", "c"};
 //       rotateLeft(words);
 //       System.out.println(Arrays.toString(words));
 
-//       int[] times = {2, 3, 1, 2};
+//       int[] times = {2, 3, 1};
 //       repeatTimes(words, times);
 //       System.out.println(Arrays.toString(words));     
 
@@ -65,8 +65,8 @@ public class Ch7bMoreArrays {
    
    // this method should alter each element in the words array
    // to repeat the number of times that appears in the times array
-   // if we pass {"a", "b"}, {2, 4} 
-   // ==> words should become {"aa", "bbbb"}
+   // if we pass {"a", "b", "c"}, {2, 3, 1} 
+   // ==> words should become {"aa", "bbb", "c"}
    public static void repeatTimes(String[] words, int[] times) {
    } 
    

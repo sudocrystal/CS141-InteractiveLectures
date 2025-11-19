@@ -13,21 +13,43 @@ public class Ch8bMoreOOP {
 
    public static void main(String[] args) throws FileNotFoundException {
       Scanner input = new Scanner(new File("Seattle_Pet_Licenses.csv"));
-      PetLicense[] petDB = loadInput(input);
+      Pet[] petDB = loadInput(input);
       System.out.println(Arrays.toString(petDB));
+      System.out.printf("%d (out of %d) null entries found.\n\n", countNull(petDB), petDB.length);
 
-//       String lookupName = "Love";
-//       int count = findByName(petDB, lookupName.toLowerCase());
-//       System.out.printf("%s was found %d times in the database.", lookupName, count);
+      String lookupName = "Love";
+      int count = findByName(petDB, lookupName.toLowerCase());
+      System.out.printf("%s was found %d times in the database.", lookupName, count);
    }
 
-   public static int findByName(PetLicense[] db, String name) {
-      return 0;
+   public static int findByName(Pet[] db, String name) {
+      int count = 0;
+      for(int i = 0; i < db.length; i++) {
+         if(db[i] != null && db[i].getName().toLowerCase().contains(name)) {
+            count++;
+            System.out.println(db[i]);
+         }
+      }
+      return count;
+   }
+   
+   // This method counts the null elements in the array which 
+   // are the result of dumping dirty data (all nulls at end)
+   public static int countNull(Pet[] db) {
+      int count = 0;
+      for(Pet pet : db) {
+         if(pet == null) {
+            count++;
+         }
+      }
+      return count;
    }
 
-   public static PetLicense[] loadInput(Scanner in) {
+   // This method loads all the data from Seattle_Pet_licenses.csv
+   // All dirty data is dumped rather than cleaned
+   public static Pet[] loadInput(Scanner in) {
       String header = in.nextLine(); // dump header -- not used
-      PetLicense[] data = new PetLicense[66043];
+      Pet[] data = new Pet[66100];
       int i = 0;
 
       while(in.hasNextLine()) {
@@ -47,7 +69,8 @@ public class Ch8bMoreOOP {
             int zip = Integer.parseInt(rowData[6]);
 
             // create a new PetLicense object with all the data provided
-            data[i++] = new PetLicense(rowData[0], license, rowData[2], rowData[3], rowData[4], rowData[5], zip);
+            // name, species, primaryBreed, issueDate, licenseNumber, zipCode
+            data[i++] = new Pet(rowData[2], rowData[3], rowData[4], rowData[0], license, zip);
          }
          else {
             //System.out.println("bad data field(s): " + Arrays.toString(rowData));

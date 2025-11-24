@@ -38,19 +38,19 @@ public class Ch10aArrayList {
   
    // this method should create a list of 'numElements' number of ints
    // where each int is a random number between 1 and 'high'
-   // e.g. createList(r, 3, 15) might return [13, 1, 9]
+   // e.g. createList(r, 3, 15) might return [15, 1, 9]
    public static ArrayList<Integer> createList(Random r, int numElements, int high) {
       return null;
    }
 
    // duplicates a list of Integers by appending each element in the list
    // to the end of the list
-   // e.g. [1,2,3] ==> [1,2,3,1,2,3]
+   // e.g. [1, 2, 3] ==> [1, 2, 3, 1, 2, 3]
    public static void duplicateList(ArrayList<Integer> list) {
    }
 
    // this method moves the max value in a list of Integers to the end
-   // e.g. [1,29,54,2] ==> [1,29,2,54]
+   // e.g. [1, 29, 54, 2] ==> [1, 29, 2, 54]
    public static void maxToEnd(ArrayList<Integer> list) {
    }
   
